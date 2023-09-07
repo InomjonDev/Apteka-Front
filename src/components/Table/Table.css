@@ -1,0 +1,98 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: "Inter", sans-serif;
+	position: relative;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.title {
+	/* width: 20%; */
+	width: 16.6%;
+}
+
+.price {
+	/* width: 20%; */
+	width: 16.6%;
+}
+
+.expiration {
+	/* width: 20%; */
+	width: 16.6%;
+	font-weight: bold;
+}
+
+.expiration.ex-green {
+	color: green;
+}
+
+.expiration.ex-yellow {
+	color: gold;
+}
+.expiration.ex-red {
+	color: red;
+}
+
+.quantity {
+	/* width: 20%; */
+	width: 16.6%;
+}
+
+.firma {
+	/* width: 20%; */
+	width: 16.6%;
+}
+
+.delete {
+	/* width: 20%; */
+	width: 16.6%;
+}
+
+.table__input form {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	transition: 0.3s;
+}
+
+.table__input form input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 40px;
+	border: 1px solid #ddd;
+	background-color: transparent;
+	border-radius: 10px;
+	text-align: center;
+	outline: none;
+}
+
+.table__input form input::placeholder {
+	text-align: center;
+	color: #ddd;
+}
+
+.delete-btn {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #dc3545;
+	background-color: #dc3545;
+	color: #fff;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 7px;
+	cursor: pointer;
+}

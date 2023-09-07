@@ -1,0 +1,136 @@
+.sibedar {
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-right: 2px solid #ddd;
+	padding: 20px 40px;
+	font-family: "Inter", sans-serif;
+	transition: 0.3s;
+}
+
+.sibedar.short {
+	width: 70px;
+	padding: 20px 5px;
+}
+
+.sibedar.short .sibedar__logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sibedar.short .sibedar__logo p {
+	display: none;
+}
+
+.sibedar.short .sidebar__list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.sibedar.short .sidebar__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sibedar.short .sidebar__item a {
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sibedar.short .sidebar__item span {
+	display: none;
+}
+
+.sidebar__links {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 90%;
+}
+
+.sibedar__logo {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	margin-bottom: 50px;
+}
+
+.sidebar__toggle {
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	background-color: #0f71f5;
+	border: 1px solid #0f71f5;
+	border: none;
+	border-radius: 7px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.sibedar__logo p {
+	font-size: 24px;
+}
+
+.sidebar__list {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.sidebar__list > span {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.sidebar__item {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	border-radius: 7px;
+	transition: 0.3s;
+}
+
+.sidebar__item:hover {
+	cursor: pointer;
+	background-color: #eee;
+}
+
+.sidebar__item.active {
+	background-color: #eee;
+}
+
+.sidebar__item a {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 5px 102px 5px 20px;
+}
+
+.sidebar__item a span {
+	font-size: 16px;
+}
+
+.sidebar__item svg {
+	font-size: 24px;
+}
+
+.sidebar__item svg:last-child {
+	font-size: 22px;
+}

@@ -1,0 +1,96 @@
+.debtor__container {
+  padding: 10px 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.debtor__stats button {
+  background: none;
+  border: 1px solid #0f71f5;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.debtor__body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+}
+.debtor__body .debtor {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.debtor__body .actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.debtor__modal {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  width: 500px;
+  height: auto;
+  padding: 5vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background: #fff;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.opacity {
+  opacity: 25%;
+}
+
+.debtor__modal input {
+  width: 80%;
+  height: 35px;
+  text-indent: 10px;
+}
+.debtor__modal div {
+  display: flex;
+  gap: 40px;
+}
+.debtor__modal button {
+  padding: 5px 15px;
+  background: #0f71f5;
+  color: #ffffff;
+  border: 1px solid #0f71f5;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.debtor__modal .close__modal {
+  background: #999999;
+  border-color: #999999;
+}
+.delete__debtor,
+.edit__debtor {
+  color: #fff;
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.delete__debtor {
+  background: red;
+}
+.edit__debtor {
+  background: #999999;
+}
+
+.debtor__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  gap: 40px;
+}
